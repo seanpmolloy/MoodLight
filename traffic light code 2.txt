@@ -1,0 +1,30 @@
+// Traffic light code 2 Redesign
+// Connect green LED to pin 8
+// Connect yellow LED to pin 9
+// Connect red LED to pin 10
+
+
+
+
+
+void setup()  { 
+  // declare pin 8,9,10 to be outputs:
+  pinMode(8, OUTPUT);
+  pinMode(9, OUTPUT);
+  pinMode(10, OUTPUT);
+} 
+
+void loop(){{
+   digitalWrite(10, HIGH); // Turns LED on pin 13 on
+delay(2500); // LED on pin 13 remains on for 5 seconds
+   digitalWrite(10, LOW); //  Turns LED on pin 13 off
+delay(0);}
+   digitalWrite(9, HIGH); // Turns LED on pin 12 on
+delay(2500); // LED on pin 12 remains on for 5 seconds
+   digitalWrite(9, LOW); //  Turns LED on pin 12 off
+delay(0);
+   digitalWrite(8, HIGH); // Turns LED on pin 11 on
+delay(2500); // LED on pin 11 remains on for 5 seconds    
+   digitalWrite(8, LOW); //  Turns LED on pin 11 off
+delay(0);
+}
